@@ -164,8 +164,7 @@ $yum_config_stanza
 </pre>
 ###**<5>、添加定时任务，定时同步repo**
 <pre>
-
-
+echo "1 3 * * * /usr/bin/cobbler reposync --tries=3 --no-fail" >> /var/spool/cron/root
 </pre>
 ##五、客户端自动重装系统
 <pre>
