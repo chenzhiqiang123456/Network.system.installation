@@ -93,7 +93,7 @@ cobbler sync
 ##二、系统挂载及镜像导入及cobbler项目配置的修改
 **<1>、挂载系统文件**
 <pre>
-mout /dev/cdrom /mnt
+mount /dev/cdrom /mnt
 </pre>
 
 **<2>、导入镜像cobbler import**
