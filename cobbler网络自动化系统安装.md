@@ -17,6 +17,7 @@ Cobbler客户端Koan支持虚拟机安装和操作系统重新安装，使重装
 <pre>
    systemctl start cobblerd
    systemctl start httpd
+    systemctl start tftp
 可以开机自启动
 systemctl enable cobblerd
 systemctl enable httpd
